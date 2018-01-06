@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<link rel="stylesheet" href="css/ionic.css" />
+			<script src="js/ionic.bundle.js"></script>
+	</head>
+	<body>
+		<ion-header-bar>
+			<h3 class="title">登录</h3>
+			
+		</ion-header-bar>
+		
+		<ion-content>
+	<div class="list">
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">账号／手机号</span>
+    <input type="text">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">密码</span>
+    <input type="text" >
+  </label>
+  <button class="button button-positive button-block">
+  	登录
+  </button>
+</div>
+		</ion-content>
+		
+		<ion-footer-bar>
+			
+		</ion-footer-bar>
+		
+		<script>
+			var app=angular.module('myApp',['ionic']);
+		</script>
+	</body>
+</html>

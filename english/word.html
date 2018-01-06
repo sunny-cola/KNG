@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="js/ionic.bundle.js"></script>
+		<link rel="stylesheet" href="css/ionic.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+	</head>
+	<body>
+		
+	<ion-header-bar>
+    <h1 class="title">每日美文阅读</h1>
+</ion-header-bar>
+
+<ion-content>
+		<div class="list card">
+
+  <div class="item item-avatar">
+    <img src="img/16.jpg">
+    <h2>sunny</h2>
+    <p>2018 January 1st</p>
+  </div>
+
+  <div class="item item-body">
+    <img class="full-image" src="img/yuantiao.jpg">
+    <p>
+      This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+      the content is from a card-body consisting of an image and paragraph text. The footer
+      consists of tabs, icons aligned left, within the card-footer.
+    </p>
+    <p>
+      <a href="#" class="subdued">1 Like</a>
+      <a href="#" class="subdued">5 Comments</a>
+    </p>
+  </div>
+
+  <div class="item tabs tabs-secondary tabs-icon-left">
+    <a class="tab-item" href="#">
+      <i class="icon ion-thumbsup"></i>
+      Like
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-chatbox"></i>
+      Comment
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon ion-share"></i>
+      Share
+    </a>
+  </div>
+
+</div>
+</ion-content>	
+		
+		
+			<div class="tabs tabs-icon-top">
+    <a href="index.html" class="tab-item">
+        <i class="icon ion-home"></i>
+        首页</a>
+    <a href="" class="tab-item">
+        <i class="icon ion-person"></i>
+        拍照</a>
+    <a href="my2.html" class="tab-item">
+        <i class="icon ion-gear-a"></i>
+        我的</a>
+</div>
+    
+    <script >
+	var app=angular.module('myApp',['ionic']);
+</script>
+	</body>
+</html>

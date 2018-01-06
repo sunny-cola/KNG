@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<script src="js/ionic.bundle.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/ionic.css" />
+	</head>
+	<body>
+		
+		<ionic-header-bar>
+  <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="请输入中文或者英文">
+        <span class=" form-control-feedback glyphicon glyphicon-search"></span>
+    </div>
+		</ionic-header-bar>
+		
+		<ionic-content>
+			<div class="card">
+				<div class="item item-text-wrap"> 
+					index
+					</div>
+			</div>
+			
+			<div class="card">
+				<div class="item item-text-wrap"> 
+					n.索引；指数；指示；标志<br>
+					vt.给...编索引<br>
+					vi.转位[机械学]
+					
+				</div>
+			</div>
+		</ionic-content>
+		
+		<ionic-footer>
+			
+		</ionic-footer>
+		
+		<script >
+	var app=angular.module('myApp',['ionic']);
+</script>
+	</body>
+</html>

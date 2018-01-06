@@ -1,0 +1,39 @@
+#search-box{
+	float:left;
+	width:100%;
+    height:60%;
+}
+#search-box div.search{
+  height:35%;
+  }
+#search-box input{
+	width:60%;
+	height:35%;
+	border:none;
+	border-radius:3%;
+		margin:4% 0 0 4%;
+}
+#search-box .search button{
+	width:30%;
+	height:35%;
+	background-color:darkblue;
+	font-size:20px;
+	/*font-weight:bold;*/
+	color:#F5F5F5;
+	border-radius:3%;
+}
+/*#search-box input{
+  width:100%;
+  height:30px;
+  border:none;
+  padding:0;
+}
+#search-box button{
+  width:20%;
+  height:10%;
+  border:none;
+  background:#E4393C;
+  font-size:14px;
+  font-weight:bold;
+  color:#fff;
+}*/
